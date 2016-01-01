@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Help</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <base href="help.html" target="_self"/>
+
+    </head>
+    <body>
+        <header id="zaglavlje" >
+            HELP / POMOĆ
+
+        </header>
+        <nav id="izbornik">
+            <ul>
+                <li><a href="#o_app" target="_self">O aplikaciji</a></li>
+                <li><a href="#instalacija" target="_self">Instalacija</a></li>
+                <li><a href="#help" target="_self">Help</a></li>
+                <li><a href="#prijava" target="_self">Prijava</a></li>
+                <li><a href="#glIzbornik" target="_self">Glavni izbornik</a></li>
+                <li><a href="#vinograd" target="_self">Vinograd</a></li>
+                <li><a href="#berba" target="_self">Berba</a></li>
+                <li><a href="#podrum" target="_self">Podrum</a></li>
+                <li><a href="#izlaz" target="_self">Izlaz iz aplikacije</a></li>
+                <li><a href="#deinstalacija" target="_self">Deinstalacija</a></li>
+            </ul>
+        </nav>
+        <section id="sadrzaj">
+            <article>
+                <p id="o_app"> <b>O aplikaciji:</b> <br>
+                    Aplikacija Vinarija_app namijenjena je vinogradarima, a služi evidentiranju svih aktivnosti vezanih uz održavanje vinograda te evidentiranju aktivnosti koje se obavljaju u podrumima. Cilj aplikacije je olakšanje i usustavljivanje posla vinogradara. Sastoji se od nekoliko modula. Oni su namijenjeni praćenju i ažuriranju podataka vezanih uz rad u samom vinogradu, evidentiranju obavljenih berbi te količine dobivenog grožđa i  praćenju aktivnosti proizvodnje i skladištenja vina. Drugim riječima omogućava unos i ažuriranje podataka o svim aktivnostima koje se provode dok se proizvodi vino te omogućava evidenciju količine proizvedenog vina, evidenciju izvršenih analiza vina te evidenciju o smještaju tog vina u vinskim podrumima.
+                    Aplikacija je razvijena u Microsoft Visual Studio-u 2012 integriranom razvojnom okruženju za Windows 7, u .NET-u koristeći Windows Forms  i  programski jezik  C#. Baza podataka je izrađena pomoću programa SQLite Expert Personal.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="instalacija"> <b>Instalacija:</b> <br>
+                    Odabrani način distribucije za ovu aplikaciju jest CopyPaste distribucija. Zahvaljujući tome nema potrebe za instalacijom aplikacije, već se korisniku dostavljaju izvršne datoteke i potrebni resursi za rad aplikacije i aplikacija se izravno pokreće. Prečac do aplikacije se može kreirati ručno, desnim klikom na nju te na create shortcut. 
+                </p>
+
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="help"> <b>Help:</b> <br>
+                    Korisniku je omogućeno otvaranje pomoći za korištenje aplikacije pritiskom tipke „F1“ bez obzira na kojoj formi se trenutno nalazi. Pomoć se nalazi u html datoteci za čije otvaranje nije nužna povezanost na Internet, već se može otvoriti lokalno.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+                <p id="prijava"><b>Prijava:</b> <br>
+                    Nakon pokretanja aplikacije otvara  se forma za prijavu.  Korisnici aplikacije mogu se prijaviti u nju unosom ispravnog korisničkog imena i lozinke te potom klikom na gumb „Prijavi se“.	
+                    Ukoliko korisnik unese pogrešno korisničko ime ili lozinku, dobiva obavijest o tome u MessageBoxu te nakon toga može ponovno unijeti podatke za prijavu. Broj pokušaja prijave je neograničen.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="glIzbornik"><b>Glavni izbornik:</b> <br> 
+                    Nakon uspješne prijave otvara se glavni izbornik aplikacije koji nas vodi do različitih formi za unos, izmjenu i prikaz podataka. To su Vinograd, Berba i Podrum. Na njemu se nalaze i dvije slike. Klikom na sliku u gornjem lijevom uglu izbornika otvara se stranica Državnog hidrometeorološkog zavoda kako bi se lakše pratila vremenska prognoza s obzirom da obavljanje mnogih krucijalnih aktivnosti u vinogradu i podrumu ovise o vremenu. Desno od nje nalazi se slika kojom je u aplikaciju integrirano otvaranje foruma za vinogradare i podrumare tako da ukoliko korisniku aplikacije zatreba pomoć u donošenju odluka o vođenju vinograda i podruma, može pronaći ili pitati za savjet.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="vinograd"><b>Vinograd:</b><br>
+                    Forma vinograd se sastoji od četiri DataGridView kontrole. Pomoću njih je ostvaren tablični ispis podataka iz baze. Prva od njih je Vinograd. U njoj se nalaze osnovni podaci o vinogradu kao što su šifra, naziv, lokacija te  njegova veličina izražena ukupnim brojem čokota i redova. Potom se vidi Dnevnik vinogradara u koji korisnik unosi aktivnosti koje je obavio određeni dan te svoja opažanja o stanju u vinogradu. Da bi se znalo o kojem vinogradu se radi, potrebno je unijeti šifru vinograda koja se može vidjeti u Vinogradu. Da bi se znalo koje sorte vinove loze se nalaze u kojem vinogradu postoji njihov ispis u trećoj DataGridView kontroli. U njoj se može vidjeti i smještaj pojedine sorte u vinogradu. Šifre sorti pod kojima su unešene u popis sorta u vinogradu može se vidjeti u posljednjem tabličnom ispisu podataka na formi koji se sastoji od dva stupca: šifre i naziva sorte. 
+                    <br>Svi podaci se mogu brisati i mijenjati u bazi tako što se označi cijeli redak koji želimo ili ukloniti ili promijeniti te potom gumb Obriši ili Izmjeni retrospektivno. Ukoliko se žele dodati novo podaci u bazu, potrebno je kliknuti na jedan od gumbova Dodaj, pokraj tablice u koju želimo dodati podatke, unijeti podatke u formu za unos te kliknuti spremi. 
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+                <p id="berba"><b>Berba:</b><br>
+                    Forma Berbe je vrlo jednostavna. U njoj se evidentiraju obavljene berbe. Svaka berba ima vlastiti ID, unosi se datum njenog izvršenja, oličina ubranog grožđa te šifra sorte u vinogradu pomoću koje se može znati točno o kojoj sorti se radi te iz kojeg vinograda je pobrana.
+                    <br>Svi podaci se mogu brisati i mijenjati u bazi tako što se označi cijeli redak koji želimo ili ukloniti ili promijeniti te potom gumb Obriši ili Izmjeni retrospektivno. Ukoliko se žele dodati novo podaci u bazu, potrebno je kliknuti na  gumb Dodaj koji se nalazi ispod tablice u koju želimo dodati podatke, unijeti podatke u formu za unos te kliknuti spremi. Ukoliko unesene podatke ipak ne želimo spremiti ili promijeniti  dovoljno je na formi za unos samo kliknuti na gumb Odustani.
+
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="podrum"><b>Podrum:</b><br>
+                    Kada se na glavnom izborniku klikne na gumb Podrum otvara se nova forma sa izbornikom za podrumara. U njemu se bira između Dnevnika i Vino/Ambalaža. <br>
+                    Klikom na Dnevnik otvara se forma Dnevnik podrumara u kojoj se vodi evidencija koje aktivnosti su određeni dan obavljene, na kojem vinu te bilježi se temperatura podruma te rezultati analiza vina. Ukoliko analiza vina nije izvršena, kao rezultat mjerenja potrebno je upisati nulu. <br>
+                    Ukoliko se na izborniku podrumara klikne na gumb Vino/Ambalaža otvara se forma Ambalaza pomoću koje se vrši pregled vrsta i zapremnina ambalaža u podrumu, ukupna količina vina dobivena nakon berbe, njegovo stanje (masulj, mošt, vino) preostalo vino u podrumu te ambalaža u kojoj je to vino spremljeno te količina vina koja se nalazi u pojedinoj bačvi/kanistru/boci i datum njegovog zapremanja u istu.
+                    <br>Svi podaci se mogu brisati i mijenjati u bazi tako što se označi cijeli redak koji želimo ili ukloniti ili promijeniti te potom gumb Obriši ili Izmjeni retrospektivno. Ukoliko se žele dodati novo podaci u bazu, potrebno je kliknuti na  gumb Dodaj koji se nalazi ispod ili pokraj tablice, unijeti podatke u formu za unos te kliknuti spremi. Ukoliko unesene podatke ipak ne želimo spremiti ili promijeniti  dovoljno je na formi za unos samo kliknuti na gumb Odustani.
+
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="izlaz"> <b>Izlaz iz aplikacije:</b> <br>
+                    Za izlaz iz aplikacije ili pojedine forme potrebno je kliknuti na crveni „x“ koji se nalazi u gornjem desnom uglu forme. Ukoliko se radi o formama za unos ili izmjenu podataka, izaći iz njih se može i klikom na gumb Odustani.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+                <p id="deinstalacija"><b>Deinstalacija:</b><br>
+                    Kako nema instalacije, nema potrebe ni za deinstalacijom aplikacije. Ukoliko želite ukloniti aplikaciju s računala, dovoljno je samo obrisati njene datoteke i resurse.
+                </p>
+                <a href="#izbornik" target="_self">Povratak na vrh</a><br>
+
+            </article>
+
+        </section>
+        <footer id="podnozje">
+            <address>
+                Kontakt:<br/>
+                <a href="mailto:izavrski@foi.hr">Ivana Završki</a>
+
+            </address>
+        </footer>
+    </body>
+</html>

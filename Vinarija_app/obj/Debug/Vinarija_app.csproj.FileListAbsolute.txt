@@ -1,0 +1,93 @@
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.config
+C:\Users\Ivana\Desktop\Fax\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.config
+D:\FOI\3. godina\Projekt_PI\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.config
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csprojResolveAssemblyReference.cache
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Forum.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Glavni_izbornik.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prognoza.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Properties.Resources.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csproj.GenerateResource.Cache
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.pdb
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.exe
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.pdb
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Berbe.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Podrum.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Vinograd.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Ambalaza.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaAmbalaza.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinograd.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnik.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaSorta.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinogradSorte.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaBerba.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoPodrum.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoAmbalaza.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Dnevnik.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnikP.resources
+C:\Users\Ivana\Desktop\PI_Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prijava.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.config
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.exe
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.pdb
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.manifest
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.application
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.pdb
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\System.Data.SQLite.dll
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csprojResolveAssemblyReference.cache
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Ambalaza.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Berbe.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Dnevnik.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Forum.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Glavni_izbornik.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaAmbalaza.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaBerba.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaSorta.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnik.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnikP.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinograd.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinogradSorte.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoAmbalaza.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoPodrum.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Podrum.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prijava.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prognoza.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Properties.Resources.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Vinograd.resources
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csproj.GenerateResource.Cache
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.exe.manifest
+C:\Users\Ivana\Desktop\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.application
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.config
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.exe
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.pdb
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe.manifest
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.application
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.exe
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\Vinarija_app.pdb
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\bin\Debug\System.Data.SQLite.pdb
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csprojResolveAssemblyReference.cache
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Ambalaza.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Berbe.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Dnevnik.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Forum.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Glavni_izbornik.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaAmbalaza.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaBerba.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovaSorta.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnik.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviDnevnikP.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinograd.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NoviVinogradSorte.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoAmbalaza.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.NovoVinoPodrum.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Podrum.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prijava.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Prognoza.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Properties.Resources.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.Vinograd.resources
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.csproj.GenerateResource.Cache
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.exe.manifest
+D:\Faks\PI Vinarija\Vinarija_app\Vinarija_app\obj\Debug\Vinarija_app.application

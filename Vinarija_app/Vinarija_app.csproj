@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CD0042F-399F-44DE-B8F9-F454B412C77B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vinarija_app</RootNamespace>
+    <AssemblyName>Vinarija_app</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Vinarija_app</ProductName>
+    <PublisherName>Ivana</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Fasticon-Fruits-Grape.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4B9D7B3A35D83D9C95C719F16ABF22BA42D628ED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Vinarija_app_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.93.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\System.Data.SQLite\2012\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ambalaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ambalaza.Designer.cs">
+      <DependentUpon>Ambalaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="berba.cs" />
+    <Compile Include="Berbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Berbe.Designer.cs">
+      <DependentUpon>Berbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="Dnevnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dnevnik.Designer.cs">
+      <DependentUpon>Dnevnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dnevnikPodrumara.cs" />
+    <Compile Include="dnevnikVinogradara.cs" />
+    <Compile Include="Forum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forum.Designer.cs">
+      <DependentUpon>Forum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Glavni Izbornik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glavni Izbornik.Designer.cs">
+      <DependentUpon>Glavni Izbornik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mojVinograd.cs" />
+    <Compile Include="NovaAmbalaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaAmbalaza.Designer.cs">
+      <DependentUpon>NovaAmbalaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaBerba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaBerba.Designer.cs">
+      <DependentUpon>NovaBerba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaSorta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaSorta.Designer.cs">
+      <DependentUpon>NovaSorta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviDnevnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviDnevnik.Designer.cs">
+      <DependentUpon>NoviDnevnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviDnevnikP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviDnevnikP.Designer.cs">
+      <DependentUpon>NoviDnevnikP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviVinograd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviVinograd.Designer.cs">
+      <DependentUpon>NoviVinograd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoviVinogradSorte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoviVinogradSorte.Designer.cs">
+      <DependentUpon>NoviVinogradSorte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovoVinoAmbalaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovoVinoAmbalaza.Designer.cs">
+      <DependentUpon>NovoVinoAmbalaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovoVinoPodrum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovoVinoPodrum.Designer.cs">
+      <DependentUpon>NovoVinoPodrum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Podrum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podrum.Designer.cs">
+      <DependentUpon>Podrum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prijava.Designer.cs">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prognoza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prognoza.Designer.cs">
+      <DependentUpon>Prognoza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sorte.cs" />
+    <Compile Include="vinoAmbalaza.cs" />
+    <Compile Include="Vinograd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vinograd.Designer.cs">
+      <DependentUpon>Vinograd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vinogradSorte.cs" />
+    <Compile Include="vinoPodrum.cs" />
+    <Compile Include="vrstaAmbalaze.cs" />
+    <EmbeddedResource Include="Ambalaza.resx">
+      <DependentUpon>Ambalaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Berbe.resx">
+      <DependentUpon>Berbe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dnevnik.resx">
+      <DependentUpon>Dnevnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forum.resx">
+      <DependentUpon>Forum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glavni Izbornik.resx">
+      <DependentUpon>Glavni Izbornik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaAmbalaza.resx">
+      <DependentUpon>NovaAmbalaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaBerba.resx">
+      <DependentUpon>NovaBerba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaSorta.resx">
+      <DependentUpon>NovaSorta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviDnevnik.resx">
+      <DependentUpon>NoviDnevnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviDnevnikP.resx">
+      <DependentUpon>NoviDnevnikP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviVinograd.resx">
+      <DependentUpon>NoviVinograd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoviVinogradSorte.resx">
+      <DependentUpon>NoviVinogradSorte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovoVinoAmbalaza.resx">
+      <DependentUpon>NovoVinoAmbalaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovoVinoPodrum.resx">
+      <DependentUpon>NovoVinoPodrum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podrum.resx">
+      <DependentUpon>Podrum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <DependentUpon>Prijava.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prognoza.resx">
+      <DependentUpon>Prognoza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vinograd.resx">
+      <DependentUpon>Vinograd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Vinarija_app_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vinograd-600x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vino9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podrum vina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1941138_276141282562970_2119340996_a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fasticon-Fruits-Grape.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
